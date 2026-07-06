@@ -30,6 +30,8 @@ targets:
       properties:
         CFBundleDevelopmentRegion: en
         CFBundleDisplayName: meTools
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleLocalizations: [en, tr, ar, ca, cs, da, de, el, es, fi, fr, he, hi, hu, id, it, ja, ko, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru, sk, sv, th, uk, vi, zh-Hans, zh-Hant]
         LSApplicationCategoryType: public.app-category.utilities
         # Menu-bar-only app: no Dock icon; the settings window opens from the status item.
@@ -61,6 +63,8 @@ targets:
       properties:
         CFBundleDevelopmentRegion: en
         CFBundleDisplayName: meTools
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         CFBundleLocalizations: [en, tr, ar, ca, cs, da, de, el, es, fi, fr, he, hi, hu, id, it, ja, ko, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru, sk, sv, th, uk, vi, zh-Hans, zh-Hant]
         NSExtension:
           NSExtensionPointIdentifier: com.apple.FinderSync
