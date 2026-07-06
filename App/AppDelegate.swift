@@ -60,7 +60,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func setupStatusItem() {
         let item = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let button = item.button {
-            button.image = NSImage(systemSymbolName: "wrench.and.screwdriver", accessibilityDescription: "meTools")
+            // A single screwdriver, filled and bold. 13 pt fits the menu bar's
+            // ~22 pt height without clipping; 16 pt was cut off top and bottom.
+            let config = NSImage.SymbolConfiguration(pointSize: 13, weight: .bold)
+            button.image = NSImage(systemSymbolName: "screwdriver.fill", accessibilityDescription: "meTools")?
+                .withSymbolConfiguration(config)
         }
 
         let menu = NSMenu()
@@ -74,6 +78,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                      action: #selector(showSettingsWindow), keyEquivalent: ",")
         menu.addItem(withTitle: NSLocalizedString("menu.openAccessibility", comment: "Open Accessibility settings"),
                      action: #selector(openAccessibilitySettings), keyEquivalent: "")
+        menu.addItem(withTitle: NSLocalizedString("menu.checkUpdates", comment: "Check for updates"),
+                     action: #selector(checkForUpdates), keyEquivalent: "")
         menu.addItem(.separator())
         let loginItem = NSMenuItem(title: NSLocalizedString("menu.launchAtLogin", comment: "Launch at login"),
                                    action: #selector(toggleLaunchAtLogin), keyEquivalent: "")
@@ -131,6 +137,47 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             NSLog("meTools: giriş öğesi değiştirilemedi: \(error.localizedDescription)")
         }
         refreshLoginItemState()
+    }
+
+    @objc private func checkForUpdates() {
+        UpdateChecker.check { result in
+            DispatchQueue.main.async { self.showUpdateResult(result) }
+        }
+    }
+
+    private func showUpdateResult(_ result: UpdateCheckResult) {
+        NSApp.activate(ignoringOtherApps: true)
+        let alert = NSAlert()
+
+        switch result {
+        case .updateAvailable(let latest, let current, let url):
+            alert.messageText = NSLocalizedString("update.available.title", comment: "New version available")
+            alert.informativeText = String(
+                format: NSLocalizedString("update.available.message", comment: "Update instructions"),
+                latest, current
+            )
+            alert.addButton(withTitle: NSLocalizedString("update.open", comment: "Open download page"))
+            alert.addButton(withTitle: NSLocalizedString("update.close", comment: "Close"))
+            if alert.runModal() == .alertFirstButtonReturn {
+                NSWorkspace.shared.open(url)
+            }
+
+        case .upToDate(let current):
+            alert.messageText = NSLocalizedString("update.upToDate.title", comment: "Up to date")
+            alert.informativeText = String(
+                format: NSLocalizedString("update.upToDate.message", comment: "Latest version installed"),
+                current
+            )
+            alert.addButton(withTitle: NSLocalizedString("update.close", comment: "Close"))
+            alert.runModal()
+
+        case .failed:
+            alert.alertStyle = .warning
+            alert.messageText = NSLocalizedString("update.error.title", comment: "Update check failed")
+            alert.informativeText = NSLocalizedString("update.error.message", comment: "Check connection")
+            alert.addButton(withTitle: NSLocalizedString("update.close", comment: "Close"))
+            alert.runModal()
+        }
     }
 
     @objc private func openAccessibilitySettings() {

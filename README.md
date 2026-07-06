@@ -40,6 +40,7 @@ meTools combines three small Finder utilities (miCutPaste, miRightClick, miEnter
 | `Control+X` | Cuts the selection (the next paste moves it) |
 | `Control+V` | Pastes — moves the files if they were cut |
 | `Control+Z` | Undoes the last file operation |
+| `Backspace` | Moves the selection to the Trash |
 
 ### And
 
@@ -163,6 +164,7 @@ meTools, üç küçük Finder aracını (miCutPaste, miRightClick, miEnter) tek 
 | `Control+X` | Seçimi keser (sonraki yapıştırma taşır) |
 | `Control+V` | Yapıştırır — kesilmişse dosyaları taşır |
 | `Control+Z` | Son dosya işlemini geri alır |
+| `Backspace` | Seçimi Çöp Sepeti'ne taşır |
 
 ### Ayrıca
 

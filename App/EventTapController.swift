@@ -30,6 +30,7 @@ final class EventTapController {
         static let keypadEnter: CGKeyCode = 76
         static let downArrow: CGKeyCode = 125
         static let f2: CGKeyCode = 120
+        static let backspace: CGKeyCode = 51
         static let c: CGKeyCode = 8
         static let v: CGKeyCode = 9
         static let x: CGKeyCode = 7
@@ -124,6 +125,13 @@ final class EventTapController {
             // Plain Return starts inline rename in Finder; the injected marker
             // keeps our own Return feature from remapping it.
             inject(key: Key.returnKey, flags: [])
+            return nil
+
+        case Key.backspace:
+            guard defaults.bool(forKey: MTSettings.backspaceDeletes), activeMods.isEmpty else { break }
+            if isEditingText() { break }
+            // Cmd+Backspace is Finder's "Move to Trash".
+            inject(key: Key.backspace, flags: .maskCommand)
             return nil
 
         case Key.c:

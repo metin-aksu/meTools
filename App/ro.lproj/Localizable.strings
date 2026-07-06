@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V lipește";
 "feature.ctrlXCuts" = "Control+X decupează";
 "feature.ctrlZUndoes" = "Control+Z anulează";
+"feature.backspaceDeletes" = "Backspace mută selecția la Coșul de gunoi";
 "note.permissions" = "Funcțiile meniului clic dreapta necesită activarea extensiei Finder. Funcțiile tastaturii necesită permisiunea de Accesibilitate.";
 "open_extension_settings" = "Deschide configurările extensiilor";
 "open_accessibility_settings" = "Deschide configurările de Accesibilitate";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Deschide la autentificare";
 "menu.quit" = "Închide meTools";
 "menu.openAccessibility" = "Deschide configurările de Accesibilitate";
+"menu.checkUpdates" = "Caută actualizări…";
+"update.available.title" = "Este disponibilă o versiune nouă";
+"update.available.message" = "meTools %1$@ este disponibil — aveți %2$@.\n\nHomebrew: brew upgrade --cask metools\nManual: descărcați DMG-ul din pagina de descărcare și trageți meTools.app în Aplicații.";
+"update.upToDate.title" = "Sunteți la zi";
+"update.upToDate.message" = "meTools %@ este cea mai recentă versiune.";
+"update.error.title" = "Nu s-au putut căuta actualizări";
+"update.error.message" = "Verificați conexiunea la internet și încercați din nou.";
+"update.open" = "Deschide pagina de descărcare";
+"update.close" = "Închide";

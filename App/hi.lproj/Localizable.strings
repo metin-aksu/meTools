@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V पेस्ट करता है";
 "feature.ctrlXCuts" = "Control+X कट करता है";
 "feature.ctrlZUndoes" = "Control+Z पूर्ववत करता है";
+"feature.backspaceDeletes" = "Backspace चयन को ट्रैश में ले जाता है";
 "note.permissions" = "राइट-क्लिक मेनू सुविधाओं के लिए Finder एक्सटेंशन सक्षम करना आवश्यक है. कीबोर्ड सुविधाओं के लिए एक्सेसिबिलिटी अनुमति आवश्यक है.";
 "open_extension_settings" = "एक्सटेंशन सेटिंग्स खोलें";
 "open_accessibility_settings" = "एक्सेसिबिलिटी सेटिंग्स खोलें";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "लॉगिन पर खोलें";
 "menu.quit" = "meTools छोड़ें";
 "menu.openAccessibility" = "एक्सेसिबिलिटी सेटिंग्स खोलें";
+"menu.checkUpdates" = "अपडेट जाँचें…";
+"update.available.title" = "नया संस्करण उपलब्ध है";
+"update.available.message" = "meTools %1$@ उपलब्ध है — आपके पास %2$@ है.\n\nHomebrew: brew upgrade --cask metools\nमैन्युअल: डाउनलोड पेज से DMG डाउनलोड करें और meTools.app को Applications में खींचें.";
+"update.upToDate.title" = "आप अप-टू-डेट हैं";
+"update.upToDate.message" = "meTools %@ नवीनतम संस्करण है.";
+"update.error.title" = "अपडेट जाँच नहीं सके";
+"update.error.message" = "अपना इंटरनेट कनेक्शन जाँचें और फिर से कोशिश करें.";
+"update.open" = "डाउनलोड पेज खोलें";
+"update.close" = "बंद करें";

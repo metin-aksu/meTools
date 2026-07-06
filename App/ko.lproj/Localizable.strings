@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V로 붙여넣기";
 "feature.ctrlXCuts" = "Control+X로 오려두기";
 "feature.ctrlZUndoes" = "Control+Z로 실행 취소";
+"feature.backspaceDeletes" = "Backspace 키로 선택 항목을 휴지통으로 이동";
 "note.permissions" = "오른쪽 클릭 메뉴 기능을 사용하려면 Finder 확장 프로그램을 활성화해야 합니다. 키보드 기능에는 손쉬운 사용 권한이 필요합니다.";
 "open_extension_settings" = "확장 프로그램 설정 열기";
 "open_accessibility_settings" = "손쉬운 사용 설정 열기";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "로그인 시 열기";
 "menu.quit" = "meTools 종료";
 "menu.openAccessibility" = "손쉬운 사용 설정 열기";
+"menu.checkUpdates" = "업데이트 확인…";
+"update.available.title" = "새로운 버전이 있습니다";
+"update.available.message" = "meTools %1$@ 사용 가능 — 현재 %2$@ 사용 중.\n\nHomebrew: brew upgrade --cask metools\n수동: 다운로드 페이지에서 DMG를 다운로드하고 meTools.app을 응용 프로그램으로 드래그하세요.";
+"update.upToDate.title" = "최신 상태입니다";
+"update.upToDate.message" = "meTools %@이(가) 최신 버전입니다.";
+"update.error.title" = "업데이트를 확인할 수 없음";
+"update.error.message" = "인터넷 연결을 확인하고 다시 시도하세요.";
+"update.open" = "다운로드 페이지 열기";
+"update.close" = "닫기";

@@ -12,6 +12,7 @@ struct ContentView: View {
     @AppStorage(MTSettings.ctrlVPastes, store: MTSettings.defaults) private var ctrlVPastes = true
     @AppStorage(MTSettings.ctrlXCuts, store: MTSettings.defaults) private var ctrlXCuts = true
     @AppStorage(MTSettings.ctrlZUndoes, store: MTSettings.defaults) private var ctrlZUndoes = true
+    @AppStorage(MTSettings.backspaceDeletes, store: MTSettings.defaults) private var backspaceDeletes = true
 
     private func toggle(_ key: LocalizedStringKey, isOn: Binding<Bool>) -> some View {
         Toggle(isOn: isOn) {
@@ -54,6 +55,7 @@ struct ContentView: View {
                     toggle("feature.ctrlVPastes", isOn: $ctrlVPastes)
                     toggle("feature.ctrlXCuts", isOn: $ctrlXCuts)
                     toggle("feature.ctrlZUndoes", isOn: $ctrlZUndoes)
+                    toggle("feature.backspaceDeletes", isOn: $backspaceDeletes)
                 }
                 .padding(6)
                 .frame(maxWidth: .infinity, alignment: .leading)

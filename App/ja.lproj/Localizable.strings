@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+Vでペースト";
 "feature.ctrlXCuts" = "Control+Xでカット";
 "feature.ctrlZUndoes" = "Control+Zで取り消す";
+"feature.backspaceDeletes" = "Backspaceキーで選択項目をゴミ箱に入れる";
 "note.permissions" = "右クリックメニュー機能にはFinder機能拡張の有効化が必要です。キーボード機能にはアクセシビリティの許可が必要です。";
 "open_extension_settings" = "機能拡張設定を開く";
 "open_accessibility_settings" = "アクセシビリティ設定を開く";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "ログイン時に開く";
 "menu.quit" = "meToolsを終了";
 "menu.openAccessibility" = "アクセシビリティ設定を開く";
+"menu.checkUpdates" = "アップデートを確認…";
+"update.available.title" = "新しいバージョンがあります";
+"update.available.message" = "meTools %1$@ が利用可能です — 現在は %2$@ です。\n\nHomebrew: brew upgrade --cask metools\n手動: ダウンロードページからDMGをダウンロードし、meTools.appをアプリケーションフォルダにドラッグしてください。";
+"update.upToDate.title" = "最新の状態です";
+"update.upToDate.message" = "meTools %@ は最新バージョンです。";
+"update.error.title" = "アップデートを確認できませんでした";
+"update.error.message" = "インターネット接続を確認して、もう一度お試しください。";
+"update.open" = "ダウンロードページを開く";
+"update.close" = "閉じる";

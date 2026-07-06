@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V вставляет";
 "feature.ctrlXCuts" = "Control+X вырезает";
 "feature.ctrlZUndoes" = "Control+Z отменяет";
+"feature.backspaceDeletes" = "Backspace перемещает выбранное в Корзину";
 "note.permissions" = "Функции меню правой кнопки требуют включения расширения Finder. Функции клавиатуры требуют разрешения «Универсальный доступ».";
 "open_extension_settings" = "Открыть настройки расширений";
 "open_accessibility_settings" = "Открыть настройки Универсального доступа";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Открывать при входе";
 "menu.quit" = "Завершить meTools";
 "menu.openAccessibility" = "Открыть настройки Универсального доступа";
+"menu.checkUpdates" = "Проверить обновления…";
+"update.available.title" = "Доступна новая версия";
+"update.available.message" = "Доступна версия meTools %1$@ — у вас %2$@.\n\nHomebrew: brew upgrade --cask metools\nВручную: скачайте DMG со страницы загрузки и перетащите meTools.app в папку «Программы».";
+"update.upToDate.title" = "У вас последняя версия";
+"update.upToDate.message" = "meTools %@ — самая новая версия.";
+"update.error.title" = "Не удалось проверить обновления";
+"update.error.message" = "Проверьте подключение к интернету и повторите попытку.";
+"update.open" = "Открыть страницу загрузки";
+"update.close" = "Закрыть";

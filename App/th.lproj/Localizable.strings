@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V วาง";
 "feature.ctrlXCuts" = "Control+X ตัด";
 "feature.ctrlZUndoes" = "Control+Z เลิกทำ";
+"feature.backspaceDeletes" = "Backspace ย้ายรายการที่เลือกไปถังขยะ";
 "note.permissions" = "คุณสมบัติเมนูคลิกขวาต้องเปิดใช้งานส่วนขยาย Finder คุณสมบัติแป้นพิมพ์ต้องได้รับสิทธิ์การช่วยการเข้าถึง";
 "open_extension_settings" = "เปิดการตั้งค่าส่วนขยาย";
 "open_accessibility_settings" = "เปิดการตั้งค่าการช่วยการเข้าถึง";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "เปิดเมื่อเข้าสู่ระบบ";
 "menu.quit" = "ออกจาก meTools";
 "menu.openAccessibility" = "เปิดการตั้งค่าการช่วยการเข้าถึง";
+"menu.checkUpdates" = "ตรวจสอบอัปเดต…";
+"update.available.title" = "มีเวอร์ชันใหม่";
+"update.available.message" = "meTools %1$@ พร้อมใช้งานแล้ว — คุณมี %2$@\n\nHomebrew: brew upgrade --cask metools\nด้วยตนเอง: ดาวน์โหลด DMG จากหน้าดาวน์โหลดแล้วลาก meTools.app ไปยังโฟลเดอร์แอปพลิเคชัน";
+"update.upToDate.title" = "คุณใช้เวอร์ชันล่าสุดแล้ว";
+"update.upToDate.message" = "meTools %@ เป็นเวอร์ชันล่าสุด";
+"update.error.title" = "ไม่สามารถตรวจสอบอัปเดตได้";
+"update.error.message" = "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง";
+"update.open" = "เปิดหน้าดาวน์โหลด";
+"update.close" = "ปิด";

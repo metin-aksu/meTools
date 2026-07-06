@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Το Control+V επικολλά";
 "feature.ctrlXCuts" = "Το Control+X αποκόπτει";
 "feature.ctrlZUndoes" = "Το Control+Z αναιρεί";
+"feature.backspaceDeletes" = "Το Backspace μεταφέρει την επιλογή στα Απορρίμματα";
 "note.permissions" = "Οι λειτουργίες του μενού δεξιού κλικ απαιτούν ενεργοποίηση της επέκτασης Finder. Οι λειτουργίες πληκτρολογίου απαιτούν άδεια Προσβασιμότητας.";
 "open_extension_settings" = "Άνοιγμα ρυθμίσεων επεκτάσεων";
 "open_accessibility_settings" = "Άνοιγμα ρυθμίσεων Προσβασιμότητας";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Άνοιγμα κατά τη σύνδεση";
 "menu.quit" = "Τερματισμός meTools";
 "menu.openAccessibility" = "Άνοιγμα ρυθμίσεων Προσβασιμότητας";
+"menu.checkUpdates" = "Έλεγχος για ενημερώσεις…";
+"update.available.title" = "Διατίθεται νέα έκδοση";
+"update.available.message" = "Το meTools %1$@ είναι διαθέσιμο — έχετε την %2$@.\n\nHomebrew: brew upgrade --cask metools\nΧειροκίνητα: κατεβάστε το DMG από τη σελίδα λήψης και σύρετε το meTools.app στις Εφαρμογές.";
+"update.upToDate.title" = "Είστε ενημερωμένοι";
+"update.upToDate.message" = "Το meTools %@ είναι η τελευταία έκδοση.";
+"update.error.title" = "Αδυναμία ελέγχου ενημερώσεων";
+"update.error.message" = "Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά.";
+"update.open" = "Άνοιγμα σελίδας λήψης";
+"update.close" = "Κλείσιμο";

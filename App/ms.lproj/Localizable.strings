@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V menampal";
 "feature.ctrlXCuts" = "Control+X memotong";
 "feature.ctrlZUndoes" = "Control+Z membuat asal";
+"feature.backspaceDeletes" = "Backspace mengalihkan pilihan ke Tong Sampah";
 "note.permissions" = "Ciri menu klik kanan memerlukan sambungan Finder diaktifkan. Ciri papan kekunci memerlukan kebenaran Kebolehaksesan.";
 "open_extension_settings" = "Buka Seting Sambungan";
 "open_accessibility_settings" = "Buka Seting Kebolehaksesan";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Buka Semasa Log Masuk";
 "menu.quit" = "Keluar meTools";
 "menu.openAccessibility" = "Buka Seting Kebolehaksesan";
+"menu.checkUpdates" = "Semak Kemas Kini…";
+"update.available.title" = "Versi baharu tersedia";
+"update.available.message" = "meTools %1$@ tersedia — anda mempunyai %2$@.\n\nHomebrew: brew upgrade --cask metools\nManual: muat turun DMG dari halaman muat turun dan seret meTools.app ke Applications.";
+"update.upToDate.title" = "Anda terkini";
+"update.upToDate.message" = "meTools %@ ialah versi terkini.";
+"update.error.title" = "Tidak dapat menyemak kemas kini";
+"update.error.message" = "Semak sambungan internet anda dan cuba lagi.";
+"update.open" = "Buka Halaman Muat Turun";
+"update.close" = "Tutup";

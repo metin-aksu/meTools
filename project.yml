@@ -10,8 +10,8 @@ settings:
     CODE_SIGN_STYLE: Manual
     CODE_SIGN_IDENTITY: "Developer ID Application"
     DEVELOPMENT_TEAM: Y5K2497B6G
-    MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "1.1"
+    CURRENT_PROJECT_VERSION: "2"
     # Distribution requirements: no debug entitlements, secure timestamp,
     # universal binary (Apple Silicon + Intel).
     CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO

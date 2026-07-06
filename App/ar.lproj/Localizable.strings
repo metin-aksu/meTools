@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V يلصق";
 "feature.ctrlXCuts" = "Control+X يقص";
 "feature.ctrlZUndoes" = "Control+Z يتراجع";
+"feature.backspaceDeletes" = "Backspace ينقل التحديد إلى سلة المهملات";
 "note.permissions" = "تتطلب ميزات قائمة النقر بزر الماوس الأيمن تفعيل ملحق Finder. تتطلب ميزات لوحة المفاتيح إذن تسهيلات الاستخدام.";
 "open_extension_settings" = "فتح إعدادات الملحقات";
 "open_accessibility_settings" = "فتح إعدادات تسهيلات الاستخدام";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "التشغيل عند تسجيل الدخول";
 "menu.quit" = "إنهاء meTools";
 "menu.openAccessibility" = "فتح إعدادات تسهيلات الاستخدام";
+"menu.checkUpdates" = "التحقق من التحديثات…";
+"update.available.title" = "يتوفر إصدار جديد";
+"update.available.message" = "يتوفر meTools %1$@ — لديك %2$@.\n\nHomebrew: brew upgrade --cask metools\nيدويًا: نزّل ملف DMG من صفحة التنزيل واسحب meTools.app إلى مجلد التطبيقات.";
+"update.upToDate.title" = "لديك أحدث إصدار";
+"update.upToDate.message" = "meTools %@ هو أحدث إصدار.";
+"update.error.title" = "تعذر التحقق من التحديثات";
+"update.error.message" = "تحقق من اتصالك بالإنترنت وحاول مرة أخرى.";
+"update.open" = "فتح صفحة التنزيل";
+"update.close" = "إغلاق";

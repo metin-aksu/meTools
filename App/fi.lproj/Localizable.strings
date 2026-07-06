@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V sijoittaa";
 "feature.ctrlXCuts" = "Control+X leikkaa";
 "feature.ctrlZUndoes" = "Control+Z kumoaa";
+"feature.backspaceDeletes" = "Askelpalautin siirtää valinnan roskakoriin";
 "note.permissions" = "Oikean painikkeen valikon toiminnot vaativat Finder-laajennuksen käyttöönoton. Näppäimistötoiminnot vaativat Käyttöapu-luvan.";
 "open_extension_settings" = "Avaa laajennusten asetukset";
 "open_accessibility_settings" = "Avaa Käyttöavun asetukset";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Avaa kirjauduttaessa";
 "menu.quit" = "Lopeta meTools";
 "menu.openAccessibility" = "Avaa Käyttöavun asetukset";
+"menu.checkUpdates" = "Etsi päivityksiä…";
+"update.available.title" = "Uusi versio on saatavilla";
+"update.available.message" = "meTools %1$@ on saatavilla — sinulla on %2$@.\n\nHomebrew: brew upgrade --cask metools\nManuaalisesti: lataa DMG lataussivulta ja vedä meTools.app Ohjelmat-kansioon.";
+"update.upToDate.title" = "Kaikki on ajan tasalla";
+"update.upToDate.message" = "meTools %@ on uusin versio.";
+"update.error.title" = "Päivityksiä ei voitu tarkistaa";
+"update.error.message" = "Tarkista internetyhteytesi ja yritä uudelleen.";
+"update.open" = "Avaa lataussivu";
+"update.close" = "Sulje";

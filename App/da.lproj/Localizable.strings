@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V indsætter";
 "feature.ctrlXCuts" = "Control+X klipper";
 "feature.ctrlZUndoes" = "Control+Z fortryder";
+"feature.backspaceDeletes" = "Backspace flytter det valgte til papirkurven";
 "note.permissions" = "Højrekliksmenuens funktioner kræver, at Finder-udvidelsen slås til. Tastaturfunktioner kræver tilladelse til Tilgængelighed.";
 "open_extension_settings" = "Åbn indstillinger for udvidelser";
 "open_accessibility_settings" = "Åbn indstillinger for Tilgængelighed";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Åbn ved login";
 "menu.quit" = "Slut meTools";
 "menu.openAccessibility" = "Åbn indstillinger for Tilgængelighed";
+"menu.checkUpdates" = "Søg efter opdateringer…";
+"update.available.title" = "En ny version er tilgængelig";
+"update.available.message" = "meTools %1$@ er tilgængelig — du har %2$@.\n\nHomebrew: brew upgrade --cask metools\nManuelt: hent DMG'en fra downloadsiden, og træk meTools.app til Programmer.";
+"update.upToDate.title" = "Du er opdateret";
+"update.upToDate.message" = "meTools %@ er den nyeste version.";
+"update.error.title" = "Kunne ikke søge efter opdateringer";
+"update.error.message" = "Kontrollér din internetforbindelse, og prøv igen.";
+"update.open" = "Åbn downloadside";
+"update.close" = "Luk";

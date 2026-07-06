@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V wkleja";
 "feature.ctrlXCuts" = "Control+X wycina";
 "feature.ctrlZUndoes" = "Control+Z cofa";
+"feature.backspaceDeletes" = "Backspace przenosi zaznaczenie do Kosza";
 "note.permissions" = "Funkcje menu prawego przycisku wymagają włączenia rozszerzenia Findera. Funkcje klawiatury wymagają uprawnienia Dostępności.";
 "open_extension_settings" = "Otwórz ustawienia rozszerzeń";
 "open_accessibility_settings" = "Otwórz ustawienia Dostępności";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Otwieraj przy logowaniu";
 "menu.quit" = "Zakończ meTools";
 "menu.openAccessibility" = "Otwórz ustawienia Dostępności";
+"menu.checkUpdates" = "Sprawdź uaktualnienia…";
+"update.available.title" = "Dostępna jest nowa wersja";
+"update.available.message" = "meTools %1$@ jest dostępny — masz %2$@.\n\nHomebrew: brew upgrade --cask metools\nRęcznie: pobierz DMG ze strony pobierania i przeciągnij meTools.app do Aplikacji.";
+"update.upToDate.title" = "Wszystko aktualne";
+"update.upToDate.message" = "meTools %@ to najnowsza wersja.";
+"update.error.title" = "Nie można sprawdzić uaktualnień";
+"update.error.message" = "Sprawdź połączenie z internetem i spróbuj ponownie.";
+"update.open" = "Otwórz stronę pobierania";
+"update.close" = "Zamknij";

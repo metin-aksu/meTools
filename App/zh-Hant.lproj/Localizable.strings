@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V 貼上";
 "feature.ctrlXCuts" = "Control+X 剪下";
 "feature.ctrlZUndoes" = "Control+Z 還原";
+"feature.backspaceDeletes" = "Backspace 將所選項目移至垃圾桶";
 "note.permissions" = "右鍵選單功能需要啟用 Finder 延伸功能。鍵盤功能需要輔助使用權限。";
 "open_extension_settings" = "打開延伸功能設定";
 "open_accessibility_settings" = "打開輔助使用設定";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "登入時打開";
 "menu.quit" = "結束 meTools";
 "menu.openAccessibility" = "打開輔助使用設定";
+"menu.checkUpdates" = "檢查更新…";
+"update.available.title" = "有新版本可用";
+"update.available.message" = "meTools %1$@ 已推出 — 你目前使用的是 %2$@。\n\nHomebrew：brew upgrade --cask metools\n手動：從下載頁面下載 DMG，並將 meTools.app 拖入「應用程式」檔案夾。";
+"update.upToDate.title" = "已是最新版本";
+"update.upToDate.message" = "meTools %@ 是最新版本。";
+"update.error.title" = "無法檢查更新";
+"update.error.message" = "請檢查網路連線後再試一次。";
+"update.open" = "打開下載頁面";
+"update.close" = "關閉";

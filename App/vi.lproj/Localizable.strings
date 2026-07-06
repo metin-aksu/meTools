@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V dán";
 "feature.ctrlXCuts" = "Control+X cắt";
 "feature.ctrlZUndoes" = "Control+Z hoàn tác";
+"feature.backspaceDeletes" = "Backspace chuyển mục đã chọn vào Thùng rác";
 "note.permissions" = "Các tính năng menu chuột phải yêu cầu bật tiện ích Finder. Các tính năng bàn phím yêu cầu quyền Trợ năng.";
 "open_extension_settings" = "Mở Cài đặt tiện ích";
 "open_accessibility_settings" = "Mở Cài đặt Trợ năng";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Mở khi đăng nhập";
 "menu.quit" = "Thoát meTools";
 "menu.openAccessibility" = "Mở Cài đặt Trợ năng";
+"menu.checkUpdates" = "Kiểm tra bản cập nhật…";
+"update.available.title" = "Đã có phiên bản mới";
+"update.available.message" = "meTools %1$@ đã có sẵn — bạn đang dùng %2$@.\n\nHomebrew: brew upgrade --cask metools\nThủ công: tải DMG từ trang tải xuống và kéo meTools.app vào thư mục Ứng dụng.";
+"update.upToDate.title" = "Bạn đang dùng bản mới nhất";
+"update.upToDate.message" = "meTools %@ là phiên bản mới nhất.";
+"update.error.title" = "Không thể kiểm tra bản cập nhật";
+"update.error.message" = "Kiểm tra kết nối internet của bạn và thử lại.";
+"update.open" = "Mở trang tải xuống";
+"update.close" = "Đóng";

@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "A Control+V beilleszt";
 "feature.ctrlXCuts" = "A Control+X kivág";
 "feature.ctrlZUndoes" = "A Control+Z visszavon";
+"feature.backspaceDeletes" = "A Backspace a kijelölést a Kukába helyezi";
 "note.permissions" = "A jobb kattintás menü funkcióihoz a Finder-bővítmény bekapcsolása szükséges. A billentyűzetfunkciókhoz Kisegítő lehetőségek engedély szükséges.";
 "open_extension_settings" = "Bővítménybeállítások megnyitása";
 "open_accessibility_settings" = "Kisegítő lehetőségek beállításainak megnyitása";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Megnyitás bejelentkezéskor";
 "menu.quit" = "meTools kilépés";
 "menu.openAccessibility" = "Kisegítő lehetőségek beállításainak megnyitása";
+"menu.checkUpdates" = "Frissítések keresése…";
+"update.available.title" = "Új verzió érhető el";
+"update.available.message" = "A meTools %1$@ elérhető — Önnél a %2$@ van.\n\nHomebrew: brew upgrade --cask metools\nKézzel: töltse le a DMG-t a letöltési oldalról, és húzza a meTools.app-ot az Alkalmazások mappába.";
+"update.upToDate.title" = "Naprakész";
+"update.upToDate.message" = "A meTools %@ a legújabb verzió.";
+"update.error.title" = "Nem sikerült frissítéseket keresni";
+"update.error.message" = "Ellenőrizze az internetkapcsolatot, és próbálja újra.";
+"update.open" = "Letöltési oldal megnyitása";
+"update.close" = "Bezárás";

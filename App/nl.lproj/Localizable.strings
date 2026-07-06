@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V plakt";
 "feature.ctrlXCuts" = "Control+X knipt";
 "feature.ctrlZUndoes" = "Control+Z herstelt";
+"feature.backspaceDeletes" = "Backspace verplaatst de selectie naar de prullenmand";
 "note.permissions" = "De functies van het rechtsklikmenu vereisen dat de Finder-extensie is ingeschakeld. Toetsenbordfuncties vereisen toestemming voor Toegankelijkheid.";
 "open_extension_settings" = "Open extensie-instellingen";
 "open_accessibility_settings" = "Open Toegankelijkheidsinstellingen";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Open bij inloggen";
 "menu.quit" = "Stop meTools";
 "menu.openAccessibility" = "Open Toegankelijkheidsinstellingen";
+"menu.checkUpdates" = "Zoek naar updates…";
+"update.available.title" = "Er is een nieuwe versie beschikbaar";
+"update.available.message" = "meTools %1$@ is beschikbaar — je hebt %2$@.\n\nHomebrew: brew upgrade --cask metools\nHandmatig: download de DMG van de downloadpagina en sleep meTools.app naar Apps.";
+"update.upToDate.title" = "Je bent up-to-date";
+"update.upToDate.message" = "meTools %@ is de nieuwste versie.";
+"update.error.title" = "Kan niet zoeken naar updates";
+"update.error.message" = "Controleer je internetverbinding en probeer het opnieuw.";
+"update.open" = "Open downloadpagina";
+"update.close" = "Sluit";

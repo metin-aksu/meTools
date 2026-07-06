@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V вставляє";
 "feature.ctrlXCuts" = "Control+X вирізає";
 "feature.ctrlZUndoes" = "Control+Z скасовує";
+"feature.backspaceDeletes" = "Backspace переміщує вибране в Смітник";
 "note.permissions" = "Функції меню правої кнопки потребують увімкнення розширення Finder. Функції клавіатури потребують дозволу «Універсальний доступ».";
 "open_extension_settings" = "Відкрити параметри розширень";
 "open_accessibility_settings" = "Відкрити параметри Універсального доступу";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Відкривати під час входу";
 "menu.quit" = "Завершити meTools";
 "menu.openAccessibility" = "Відкрити параметри Універсального доступу";
+"menu.checkUpdates" = "Перевірити оновлення…";
+"update.available.title" = "Доступна нова версія";
+"update.available.message" = "Доступна версія meTools %1$@ — у вас %2$@.\n\nHomebrew: brew upgrade --cask metools\nВручну: завантажте DMG зі сторінки завантаження й перетягніть meTools.app у папку «Програми».";
+"update.upToDate.title" = "У вас найновіша версія";
+"update.upToDate.message" = "meTools %@ — найновіша версія.";
+"update.error.title" = "Не вдалося перевірити оновлення";
+"update.error.message" = "Перевірте з'єднання з інтернетом і спробуйте ще раз.";
+"update.open" = "Відкрити сторінку завантаження";
+"update.close" = "Закрити";

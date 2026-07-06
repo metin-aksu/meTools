@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V vkladá";
 "feature.ctrlXCuts" = "Control+X vystrihuje";
 "feature.ctrlZUndoes" = "Control+Z vracia späť";
+"feature.backspaceDeletes" = "Backspace presunie výber do koša";
 "note.permissions" = "Funkcie menu pravého tlačidla vyžadujú zapnutie rozšírenia Findera. Funkcie klávesnice vyžadujú povolenie Prístupnosti.";
 "open_extension_settings" = "Otvoriť nastavenia rozšírení";
 "open_accessibility_settings" = "Otvoriť nastavenia Prístupnosti";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Otvoriť pri prihlásení";
 "menu.quit" = "Ukončiť meTools";
 "menu.openAccessibility" = "Otvoriť nastavenia Prístupnosti";
+"menu.checkUpdates" = "Skontrolovať aktualizácie…";
+"update.available.title" = "Je k dispozícii nová verzia";
+"update.available.message" = "meTools %1$@ je k dispozícii — máte %2$@.\n\nHomebrew: brew upgrade --cask metools\nRučne: stiahnite DMG zo stránky sťahovania a presuňte meTools.app do priečinka Aplikácie.";
+"update.upToDate.title" = "Máte najnovšiu verziu";
+"update.upToDate.message" = "meTools %@ je najnovšia verzia.";
+"update.error.title" = "Aktualizácie sa nepodarilo skontrolovať";
+"update.error.message" = "Skontrolujte pripojenie na internet a skúste to znova.";
+"update.open" = "Otvoriť stránku sťahovania";
+"update.close" = "Zavrieť";

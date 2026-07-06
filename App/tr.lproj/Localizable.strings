@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V yapıştırsın";
 "feature.ctrlXCuts" = "Control+X kessin";
 "feature.ctrlZUndoes" = "Control+Z geri alsın";
+"feature.backspaceDeletes" = "Backspace seçimi Çöp Sepeti'ne taşısın";
 "note.permissions" = "Sağ tık menüsü özellikleri için Finder eklentisinin etkinleştirilmesi, klavye özellikleri için Erişilebilirlik izni gerekir.";
 "open_extension_settings" = "Eklenti Ayarlarını Aç";
 "open_accessibility_settings" = "Erişilebilirlik Ayarlarını Aç";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "Oturum Açıldığında Başlat";
 "menu.quit" = "meTools'tan Çık";
 "menu.openAccessibility" = "Erişilebilirlik Ayarlarını Aç";
+"menu.checkUpdates" = "Güncellemeleri Denetle…";
+"update.available.title" = "Yeni bir sürüm var";
+"update.available.message" = "meTools %1$@ yayınlandı — sizde %2$@ kurulu.\n\nHomebrew: brew upgrade --cask metools\nElle: indirme sayfasından DMG'yi indirip meTools.app'i Applications klasörüne sürükleyin.";
+"update.upToDate.title" = "Güncelsiniz";
+"update.upToDate.message" = "meTools %@ en son sürüm.";
+"update.error.title" = "Güncellemeler denetlenemedi";
+"update.error.message" = "İnternet bağlantınızı kontrol edip yeniden deneyin.";
+"update.open" = "İndirme Sayfasını Aç";
+"update.close" = "Kapat";

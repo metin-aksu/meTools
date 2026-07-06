@@ -16,8 +16,9 @@ enum MTSettings {
     static let ctrlVPastes = "feature.ctrlVPastes"
     static let ctrlXCuts = "feature.ctrlXCuts"
     static let ctrlZUndoes = "feature.ctrlZUndoes"
+    static let backspaceDeletes = "feature.backspaceDeletes"
 
-    static let allKeyboardKeys = [returnOpens, f2Rename, ctrlCCopies, ctrlVPastes, ctrlXCuts, ctrlZUndoes]
+    static let allKeyboardKeys = [returnOpens, f2Rename, ctrlCCopies, ctrlVPastes, ctrlXCuts, ctrlZUndoes, backspaceDeletes]
 
     static var defaults: UserDefaults {
         UserDefaults(suiteName: suiteName) ?? .standard
@@ -26,7 +27,7 @@ enum MTSettings {
     /// First-launch defaults: every feature enabled.
     static func registerDefaults() {
         let allOn = [cutPasteMenu, newTextFile, returnOpens, f2Rename,
-                     ctrlCCopies, ctrlVPastes, ctrlXCuts, ctrlZUndoes]
+                     ctrlCCopies, ctrlVPastes, ctrlXCuts, ctrlZUndoes, backspaceDeletes]
             .reduce(into: [String: Any]()) { $0[$1] = true }
         defaults.register(defaults: allOn)
     }

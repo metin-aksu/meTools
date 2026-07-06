@@ -9,6 +9,7 @@
 "feature.ctrlVPastes" = "Control+V מדביק";
 "feature.ctrlXCuts" = "Control+X גוזר";
 "feature.ctrlZUndoes" = "Control+Z מבטל";
+"feature.backspaceDeletes" = "Backspace מעביר את הבחירה לפח המיחזור";
 "note.permissions" = "תכונות תפריט הקליק הימני דורשות הפעלת הרחבת Finder. תכונות המקלדת דורשות הרשאת נגישות.";
 "open_extension_settings" = "פתח הגדרות הרחבות";
 "open_accessibility_settings" = "פתח הגדרות נגישות";
@@ -21,3 +22,12 @@
 "menu.launchAtLogin" = "פתח בעת ההתחברות";
 "menu.quit" = "סיים את meTools";
 "menu.openAccessibility" = "פתח הגדרות נגישות";
+"menu.checkUpdates" = "בדוק עדכונים…";
+"update.available.title" = "גרסה חדשה זמינה";
+"update.available.message" = "‏meTools %1$@ זמין — מותקנת אצלך %2$@.\n\nHomebrew: brew upgrade --cask metools\nידנית: הורד את קובץ ה-DMG מדף ההורדות וגרור את meTools.app לתיקיית היישומים.";
+"update.upToDate.title" = "אתה מעודכן";
+"update.upToDate.message" = "‏meTools %@ היא הגרסה האחרונה.";
+"update.error.title" = "לא ניתן לבדוק עדכונים";
+"update.error.message" = "בדוק את חיבור האינטרנט ונסה שוב.";
+"update.open" = "פתח את דף ההורדות";
+"update.close" = "סגור";
